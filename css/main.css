@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.section-hero {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 40, 49, 0.9),
+      rgba(57, 62, 70, 0.9)
+    ),
+    url(../img/tvtower.jpg);
+  clip-path: polygon(50% 0, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+}
+
+.section-hero h1 {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  padding-top: 20rem;
+}
+
+.section-hero h2 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  padding-top: 5rem;
+}
+
+.section-hero p {
+  color: white;
+  text-align: center;
+  font-size: 2.4rem;
+  padding-top: 10rem;
+}
+
+.card {
+  height: 100rem;
+  max-width: 30rem;
+  max-height: 45rem;
+  font-size: 1.6rem;
+  margin: 5rem auto 5rem auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  max-width: 25rem;
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.projects h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card.havelblick p {
+  margin: 2rem;
+}
+
+.card.havelblick a:link,
+.card.havelblick a:visited {
+  background-color: rgba(34, 40, 49, 0.8);
+  display: block;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin: 2.5rem 0;
+  text-decoration: none;
+}
+
+.card.havelblick a:hover {
+  background-color: rgba(34, 40, 49, 1);
+  display: block;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin: 2.5rem 0;
+  text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto 0 auto;
+  padding-bottom: 10rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 40, 49, 0.9),
+      rgba(57, 62, 70, 0.9)
+    ),
+    url(../img/tvtower.jpg);
+  clip-path: polygon(50% 0, 100% 10%, 100% 100%, 50% 100%, 0 100%, 0 10%);
+}
+
+.contact-form h2 {
+  margin: 10rem auto 5rem auto;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.contact-form label {
+  font-size: 1.8rem;
+}
+
+.contact-form input {
+  padding: 0.5rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.contact-form textarea {
+  margin: 1rem 0;
+}
+
+.contact-form button {
+  width: 30rem;
+  height: 4rem;
+  font-size: 1.8rem;
+}
+
+.contact-form button:hover {
+  background-color: rgba(57, 62, 70, 0.9);
+  color: white;
+  border: 1px inset grey;
+}
